@@ -1,0 +1,5 @@
+package rover_msgs;
+
+struct CircleImage{
+	double img[224][224];
+}
