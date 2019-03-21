@@ -40,7 +40,8 @@ def classify(channel,msg):
 
   # result_sorted = np.argsort(result[0])
 
-  # labels_path = tf.keras.utils.get_file('ImageNetLabels.txt','https://storage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt')
+  # labels_path = tf.keras.utils.get_file('ImageNetLabels.txt',
+  #   'https://storage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt')
   # imagenet_labels = np.array(open(labels_path).read().splitlines())
 
   # predicted_class_name = imagenet_labels[predicted_class]
